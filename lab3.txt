@@ -1,0 +1,9 @@
+Problem 1)
+This function iterates up to (z, (sz - 1) times, so it is essentially O(n^2).
+Problem 2)
+I would label each M&M bag 1-20.
+I would put onto the scale from each bag, the number of its name.
+So for example I would put 1 M&M from bag 1, 2 M&Ms from bag 2, etc.
+
+Then I take the final weight in grams and subtract 210 ( because (1 + 2 +...+ 19 + 20) = 210 )
+Then I divide by 0.1 and I am left with the bag number
